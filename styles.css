@@ -2,7 +2,8 @@ body {
   width: 900px;
   margin: auto;
   color: rgb(58, 58, 102);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .all-the-stuff {
@@ -117,7 +118,7 @@ ul li:hover {
 }
 
 .preview h2 {
-padding-left: 3px;
+  padding-left: 3px;
 }
 
 img {
@@ -151,8 +152,6 @@ img {
   margin: 0.1em;
   width: 120px;
 }
-
-
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -286,34 +285,42 @@ img {
 }
 
 /* Startseite */
+
+#index-gallery {
+  position: relative;
+  top: -230px;
+  left: 280px;
+  width: 425px;
+  height: 325px;
+}
+
 #index-1 {
-  position: absolute;
-  top: 30%;
-  left: 55%;
+  position: relative;
+  top: 30px;
+  left: 230px;
 }
 
 #index-2 {
-  position: absolute;
-  top: 45%;
-  left: 50%;
+  position: relative;
+  top: 85px;
+  left: 23px;
 }
 
 #index-3 {
-  position: absolute;
-  top: 25%;
-  left: 38%;
+  position: relative;
+  top: -50px;
 }
 
 #index-4 {
-  position: absolute;
-  top: 20%;
-  left: 65%;
+  position: relative;
+  top: -135px;
+  left: 40px;
 }
 
 #index-5 {
-  position: absolute;
-  top: 10%;
-  left: 50%;
+  position: relative;
+  top: -180px;
+  left: 70px;
 }
 
 .index-img {
@@ -341,7 +348,7 @@ img {
 }
 
 .imp-link:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* Kontakt */
@@ -364,5 +371,5 @@ textarea {
 
 #submit {
   display: block;
-  width: 55px;;
+  width: 55px;
 }
