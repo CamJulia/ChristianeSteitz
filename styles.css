@@ -1,0 +1,368 @@
+body {
+  width: 900px;
+  margin: auto;
+  color: rgb(58, 58, 102);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.all-the-stuff {
+  width: 95%;
+  min-height: 500px;
+  padding: 5%;
+  margin: auto;
+  background-image: linear-gradient(#d1dae27a, #8f92a279);
+}
+
+.up img {
+  position: fixed;
+  bottom: 5%;
+  right: 8%;
+  width: 25px;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.up img:hover {
+  width: 28px;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 1.5em 0 0.5em 0;
+  /* color: rgb(58, 58, 102); */
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 200;
+  color: rgb(58, 58, 102);
+  /* background-color: rgb(173, 164, 207); */
+  background-color: #a8b3cd;
+}
+
+h5 {
+  margin: 0 0 1.5em 0;
+  color: rgb(58, 58, 102);
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5em;
+}
+
+.text p {
+  font-size: 0.8em;
+  width: 45%;
+  line-height: 1.6em;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  color: rgb(58, 58, 102);
+  padding: 0.9em;
+}
+
+br {
+  line-height: 3em;
+}
+
+.break {
+  line-height: 1em;
+}
+
+section {
+  min-height: 100%;
+  margin-top: 4em;
+}
+
+.content {
+  display: flex;
+}
+
+#menu {
+  width: 20%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.5em;
+  padding-inline-start: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(58, 58, 102);
+}
+
+.active {
+  color: rgba(58, 58, 102, 0.5);
+}
+
+ul li {
+  margin-top: 1em;
+  padding: 0 0.4em;
+  color: rgb(58, 58, 102);
+  /* background-color: rgb(173, 164, 207); */
+  background-color: #a8b3cd;
+}
+
+ul li:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.preview img {
+  width: 125px;
+  height: 125px;
+}
+
+.preview h2 {
+padding-left: 3px;
+}
+
+img {
+  max-height: 300px;
+}
+
+.preview-container {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 2em;
+}
+
+.preview {
+  height: 200px;
+  margin: 0 0.5em;
+}
+
+.preview img {
+  object-fit: cover;
+}
+.demo {
+  object-fit: cover;
+  width: 75px;
+  height: 75px;
+}
+
+.img-sub {
+  font-size: 13px;
+  margin: 0.1em;
+  width: 120px;
+}
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.gallery {
+  margin: auto;
+}
+
+.gallery img {
+  margin: 0 auto 0 0;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  /* margin-top: -50px; */
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  left: 40%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+/* Six columns side by side */
+.column {
+  /* float: left;
+  width: 150px; */
+  width: 20%;
+  margin: 5px 5px -5px 5px;
+}
+
+.column img {
+  width: 100%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.75;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#kontakt {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Vita */
+#vita {
+  width: 60%;
+  margin: 2em;
+}
+
+#vita img {
+  width: 180px;
+}
+
+#vita-oben {
+  display: flex;
+}
+
+#vita-oben img {
+  width: 156px;
+  height: 186px;
+}
+
+#vita-oben div {
+  width: 50%;
+  margin: 0 auto 0 2em;
+}
+
+#vita p {
+  width: 80%;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  color: rgb(58, 58, 102);
+}
+
+/* Startseite */
+#index-1 {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+}
+
+#index-2 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+
+#index-3 {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+}
+
+#index-4 {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+}
+
+#index-5 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.index-img {
+  opacity: 0.85;
+}
+
+.index-img:hover {
+  z-index: 1;
+  opacity: 1;
+}
+
+/* Impressum */
+#impressum {
+  width: 50%;
+  margin: auto;
+}
+
+#impressum p {
+  color: rgb(58, 58, 102);
+  line-height: 1.4em;
+}
+
+.imp-link {
+  font-size: 0.8em;
+}
+
+.imp-link:hover {
+opacity: 0.8;
+}
+
+/* Kontakt */
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input {
+  width: 60%;
+  margin: 1em 0;
+}
+
+textarea {
+  width: 60%;
+  height: 6em;
+  font-size: 0.8em;
+  border: none;
+}
+
+#submit {
+  display: block;
+  width: 55px;;
+}
