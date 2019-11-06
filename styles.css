@@ -417,3 +417,40 @@ textarea {
   display: block;
   width: 55px;
 }
+
+.presse {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.presse-image {
+  max-height: 95vh;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.close {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.pfeil-back {
+  color: black;
+  position: absolute;
+  top: 50vh;
+  font-size: 30px;
+  left: 5vw;
+}
+
+.pfeil {
+  color: black;
+  position: absolute;
+  top: 50vh;
+  font-size: 30px;
+  right: 5vw;
+}
